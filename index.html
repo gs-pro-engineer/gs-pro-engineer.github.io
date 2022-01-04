@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://zoyothemes.com/queue/layout/index-particles.html -->
+<html lang="en" class="no-touch">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>My-Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Bootstrap 4 Landing Page Template">
+    <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose">
+    <meta content="Zoyothemes" name="author">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="http://zoyothemes.com/queue/layout/images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- MK Lightbox -->
+    <link href="./assets/css/mklb.css" rel="stylesheet" type="text/css">
+    <!-- Icons -->
+    <link href="./assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <!-- Slider -->
+    <link href="./assets/css/tiny-slider.css" rel="stylesheet">
+    <!-- Main css File -->
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt">
+    <link href="./assets/css/colors/default.css" rel="stylesheet" id="color-opt">
+    <style type="text/css">
+        /*
+        * contextMenu.js v 1.4.0
+        * Author: Sudhanshu Yadav
+        * s-yadav.github.com
+        * Copyright (c) 2013 Sudhanshu Yadav.
+        * Dual licensed under the MIT and GPL licenses
+        **/
+
+        .iw-contextMenu {
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+            border: 1px solid #c8c7cc !important;
+            border-radius: 11px !important;
+            display: none;
+            z-index: 1000000132;
+            max-width: 300px !important;
+            width: auto !important;
+        }
+
+        .dark-mode .iw-contextMenu,
+        .TnITTtw-dark-mode.iw-contextMenu,
+        .TnITTtw-dark-mode .iw-contextMenu {
+            border-color: #747473 !important;
+        }
+
+        .iw-cm-menu {
+            background: #fff !important;
+            color: #000 !important;
+            margin: 0px !important;
+            padding: 0px !important;
+            overflow: visible !important;
+        }
+
+        .dark-mode .iw-cm-menu,
+        .TnITTtw-dark-mode.iw-cm-menu,
+        .TnITTtw-dark-mode .iw-cm-menu {
+            background: #525251 !important;
+            color: #FFF !important;
+        }
+
+        .iw-curMenu {}
+
+        .iw-cm-menu li {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            list-style: none !important;
+            padding: 10px !important;
+            padding-right: 20px !important;
+            border-bottom: 1px solid #c8c7cc !important;
+            font-weight: 400 !important;
+            cursor: pointer !important;
+            position: relative !important;
+            font-size: 14px !important;
+            margin: 0 !important;
+            line-height: inherit !important;
+            border-radius: 0 !important;
+            display: block !important;
+        }
+
+        .dark-mode .iw-cm-menu li,
+        .TnITTtw-dark-mode .iw-cm-menu li {
+            border-bottom-color: #747473 !important;
+        }
+
+        .iw-cm-menu li:first-child {
+            border-top-left-radius: 11px !important;
+            border-top-right-radius: 11px !important;
+        }
+
+        .iw-cm-menu li:last-child {
+            border-bottom-left-radius: 11px !important;
+            border-bottom-right-radius: 11px !important;
+            border-bottom: none !important;
+        }
+
+        .iw-mOverlay {
+            position: absolute !important;
+            width: 100% !important;
+            height: 100% !important;
+            top: 0px !important;
+            left: 0px !important;
+            background: #FFF !important;
+            opacity: .5 !important;
+        }
+
+        .iw-contextMenu li.iw-mDisable {
+            opacity: 0.3 !important;
+            cursor: default !important;
+        }
+
+        .iw-mSelected {
+            background-color: #F6F6F6 !important;
+        }
+
+        .dark-mode .iw-mSelected,
+        .TnITTtw-dark-mode .iw-mSelected {
+            background-color: #676766 !important;
+        }
+
+        .iw-cm-arrow-right {
+            width: 0 !important;
+            height: 0 !important;
+            border-top: 5px solid transparent !important;
+            border-bottom: 5px solid transparent !important;
+            border-left: 5px solid #000 !important;
+            position: absolute !important;
+            right: 5px !important;
+            top: 50% !important;
+            margin-top: -5px !important;
+        }
+
+        .dark-mode .iw-cm-arrow-right,
+        .TnITTtw-dark-mode .iw-cm-arrow-right {
+            border-left-color: #FFF !important;
+        }
+
+        .iw-mSelected>.iw-cm-arrow-right {}
+
+        /*context menu css end */
+    </style>
+    <style type="text/css">
+        .TnITTtw-fp-collapsed-button {
+            display: none;
+            position: fixed !important;
+            top: 16px !important;
+            right: 16px !important;
+        }
+
+        .TnITTtw-fp-collapsed-button:hover {
+            opacity: 1.0 !important;
+        }
+
+        .TnITTtw-mate-fp-bar {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            color: #000;
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 999;
+            background: rgb(255 255 255 / 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 16px;
+            border-radius: 11px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            width: 320px;
+            line-height: initial;
+        }
+
+        @-moz-document url-prefix() {
+            .TnITTtw-mate-fp-bar {
+                background: rgb(255 255 255 / 1.0);
+            }
+        }
+
+        .TnITTtw-mate-fp-bar.TnITTtw-dark-mode {
+            background: rgb(44, 44, 43);
+        }
+
+        .TnITTtw-hide-fp-bar {
+            width: 12px;
+            height: 12px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+        }
+
+        .TnITTtw-hide-fp-bar:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+        }
+
+        .TnITTtw-current-page-lang {
+            color: #6d6d72;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-current-page-lang {
+            color: #98989D;
+        }
+
+        .TnITTtw-fp-translate {
+            width: calc(100% - 73px) !important;
+            font-size: 14px !important;
+            text-transform: none !important;
+        }
+
+        .TnITTtw-fp-translate.TnITTtw-in-progress {
+            animation-name: funky-bg;
+            animation-duration: 10s;
+            animation-timing-function: ease-in;
+        }
+
+        .TnITTtw-fp-translate.TnITTtw-show-original {
+            width: calc(100% - 20px) !important;
+        }
+
+        @keyframes funky-bg {
+            from {
+                background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+                    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            }
+
+            to {
+                background-image: linear-gradient(90deg, #01EF92, #00D8FB),
+                    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            }
+        }
+
+        .TnITTtw-change-language,
+        .TnITTtw-stop-fp {
+            width: 38px;
+            height: 38px;
+            background-color: #EFEFF4;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 16px 16px;
+            border-radius: 11px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+
+        .TnITTtw-change-language {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth.png) !important;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth-dark.png) !important;
+        }
+
+        .TnITTtw-stop-fp {
+            display: none;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-stt-stop.png) !important;
+            background-size: 12px 12px;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp {
+            background-color: #525251 !important;
+        }
+
+        .TnITTtw-change-language:hover,
+        .TnITTtw-stop-fp:hover {
+            background-color: #F6F6F6;
+        }
+
+        .TnITTtw-change-language:active,
+        .TnITTtw-stop-fp:active {
+            background-color: #E9E9E9;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language:hover,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp:hover,
+        .TnITTtw-dark-mode .TnITTtw-change-language:active,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp:active {
+            background-color: #767675;
+        }
+
+        #TnITTtw-always-translate {}
+
+        .TnITTtw-fp-options input {
+            padding: initial;
+            width: auto;
+            border: initial;
+            box-shadow: initial;
+            line-height: initial;
+            height: auto;
+            display: initial;
+            position: initial;
+            appearance: auto;
+            top: initial;
+            cursor: pointer;
+            margin: 0;
+        }
+
+        .TnITTtw-fp-options input[readonly="readonly"] {
+            opacity: 0.5;
+        }
+
+        #TnITTtw-always-translate+label,
+        #TnITTtw-never-translate-lang+label,
+        #TnITTtw-never-translate-site+label {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            display: inline-block;
+            font-weight: 400;
+            font-size: 14px;
+            margin-left: 4px;
+            color: #000;
+            cursor: pointer;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 296px;
+            vertical-align: top;
+            line-height: initial;
+            letter-spacing: initial;
+            text-transform: initial;
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+        }
+
+        #TnITTtw-always-translate+label::before,
+        #TnITTtw-never-translate-lang+label::before,
+        #TnITTtw-never-translate-site+label::before,
+        #TnITTtw-always-translate+label::after,
+        #TnITTtw-never-translate-lang+label::after,
+        #TnITTtw-never-translate-site+label::after {
+            content: initial;
+        }
+
+        .TnITTtw-always-translate-inner-label {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            max-width: 252px;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .TnITTtw-dark-mode #TnITTtw-always-translate+label,
+        .TnITTtw-dark-mode #TnITTtw-never-translate-lang+label,
+        .TnITTtw-dark-mode #TnITTtw-never-translate-site+label {
+            color: #FFF;
+        }
+
+        #TnITTtw-always-translate+label.TnITTtw-not-pro {
+            opacity: 0.5;
+        }
+
+        #TnITTtw-always-translate+label .TnITTtw-pro-label {
+            position: relative;
+            background: #000;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #FFF;
+            padding: 2px 5px;
+            border-radius: 4px;
+            margin-left: 10px;
+            top: -1px;
+            user-select: none;
+            -webkit-user-select: none;
+            display: inline;
+            font-weight: 500;
+        }
+
+        .TnITTtw-dark-mode #TnITTtw-always-translate+label .TnITTtw-pro-label {
+            background: #FFF;
+            color: #000;
+        }
+
+        .TnITTtw-inline-original-tooltip {
+            display: none;
+            position: absolute;
+            margin: 0px;
+            border: none;
+            padding: 16px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255 255 255 / 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 11px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: normal;
+        }
+
+        .TnITTtw-dark-mode.TnITTtw-inline-original-tooltip {
+            background-color: rgb(0 0 0 / 0.915);
+            color: #FFF;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip {
+            width: 12px;
+            height: 12px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-original-label {
+            margin: 0;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #6d6d72;
+            margin-bottom: 10px;
+        }
+
+        .TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-original-label {
+            color: #98989D;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-text-layout {
+            display: inline-block;
+            margin: 0;
+            font-size: 16px;
+            color: #000;
+        }
+
+        .TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-text-layout {
+            color: #FFF;
+        }
+
+        .TnITTtw-highlighted-for-original {
+            color: #0F0F5F;
+            background-color: #F0F0A0;
+        }
+
+        /* Dropdown scrollbars */
+
+        #selVisibleScroll-1,
+        #selVisibleScroll-2,
+        #selVisibleScroll-3 {
+            overflow: hidden;
+            height: 259px;
+            width: 100%;
+            position: relative;
+        }
+
+        #sel-scrollbar-1,
+        #sel-scrollbar-2,
+        #sel-scrollbar-3 {
+            position: absolute;
+            width: 4px;
+            height: 259px;
+            left: 225px;
+        }
+
+        #sel-track-1,
+        #sel-track-2,
+        #sel-track-3 {
+            position: absolute;
+            top: 1px;
+            width: 4px;
+            height: calc(100% - 6px);
+        }
+
+        #sel-dragBar-1,
+        #sel-dragBar-2,
+        #sel-dragBar-3 {
+            position: absolute;
+            top: 1px;
+            width: 4px;
+            background: rgba(43, 43, 43, 0.5);
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .dark-mode #sel-dragBar-1,
+        .dark-mode #sel-dragBar-2,
+        .dark-mode #sel-dragBar-3 {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        #sel-dragBar-1:hover,
+        #sel-dragBar-2:hover,
+        #sel-dragBar-3:hover,
+        #sel-dragBar-1:active,
+        #sel-dragBar-2:active,
+        #sel-dragBar-3:active {
+            background: rgba(43, 43, 43, 0.675);
+        }
+
+        .dark-mode #sel-dragBar-1:hover,
+        .dark-mode #sel-dragBar-2:hover,
+        .dark-mode #sel-dragBar-3:hover,
+        .dark-mode #sel-dragBar-1:active,
+        .dark-mode #sel-dragBar-2:active,
+        .dark-mode #sel-dragBar-3:active {
+            background: rgba(255, 255, 255, 0.675);
+        }
+
+        #sel-scrollbar-1,
+        #sel-track-1,
+        #sel-dragBar-1,
+        #sel-scrollbar-2,
+        #sel-track-2,
+        #sel-dragBar-2,
+        #sel-scrollbar-3,
+        #sel-track-3,
+        #sel-dragBar-3 {
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        /* Spinner for when it's translating a page */
+
+        .TnITTtw-cta-button-layout {
+            position: relative;
+            display: inline;
+        }
+
+        .TnITTtw-spinner {
+            display: none;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        @media screen and (max-width: 800px) {
+            .TnITTtw-spinner {
+                top: 28px;
+            }
+        }
+
+        .TnITTtw-spinner.in-text {
+            display: block;
+            background: transparent;
+            position: initial;
+        }
+
+        .TnITTtw-spinner.left {
+            text-align: left;
+        }
+
+        .TnITTtw-spinner>div {
+            width: 12px;
+            height: 12px;
+            background-color: rgb(0, 71, 46);
+
+            border-radius: 100%;
+            display: inline-block;
+            -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+            animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        }
+
+        .TnITTtw-spinner.in-text>div {
+            background-color: #000;
+        }
+
+        .TnITTtw-spinner .TnITTtw-bounce1 {
+            -webkit-animation-delay: -0.32s;
+            animation-delay: -0.32s;
+        }
+
+        .TnITTtw-spinner .TnITTtw-bounce2 {
+            -webkit-animation-delay: -0.16s;
+            animation-delay: -0.16s;
+        }
+
+        @-webkit-keyframes sk-bouncedelay {
+
+            0%,
+            80%,
+            100% {
+                -webkit-transform: scale(0)
+            }
+
+            40% {
+                -webkit-transform: scale(1.0)
+            }
+        }
+
+        @keyframes sk-bouncedelay {
+
+            0%,
+            80%,
+            100% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            40% {
+                -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+            }
+        }
+    </style>
+    <style type="text/css">
+        .ui_selector,
+        .TnITTtw-ui_selector {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            display: inline-block;
+        }
+
+        .ui_selector .select,
+        .TnITTtw-ui_selector .TnITTtw-select {
+            color: #000;
+            text-align: center;
+            font-weight: 600;
+            font-size: 14px;
+            border: 1px solid rgba(200, 199, 204, 0.5);
+            padding: 10px 15px;
+            width: 201px;
+            -webkit-user-select: none;
+            cursor: pointer;
+            border-radius: 11px;
+            display: inline-block;
+            background-image: -webkit-linear-gradient(top, #FAFAFA, #F6F6F6);
+            background-image: -moz-linear-gradient(top, #FAFAFA, #F6F6F6);
+            background-size: auto 48px;
+            background-position: 0px -11px;
+            box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.10);
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .dark-mode .ui_selector .select,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select {
+            background-image: -webkit-linear-gradient(top, #4A4A49, #40403F);
+            background-image: -moz-linear-gradient(top, #4A4A49, #40403F);
+            color: #FFF;
+            border-color: #747473;
+        }
+
+        .ui_selector .select:hover,
+        .TnITTtw-ui_selector .TnITTtw-select:hover {
+            color: #424242;
+            background-image: -webkit-linear-gradient(top, #FAFAFA, #FAFAFA);
+            background-image: -moz-linear-gradient(top, #FAFAFA, #FAFAFA);
+        }
+
+        .ui_selector .select:active,
+        .TnITTtw-ui_selector .TnITTtw-select:active {
+            color: #6d6d72;
+            background-image: -webkit-linear-gradient(top, #F6F6F6, #F6F6F6);
+            background-image: -moz-linear-gradient(top, #F6F6F6, #F6F6F6);
+        }
+
+        .dark-mode .ui_selector .select:hover,
+        .dark-mode .ui_selector .select:active,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:hover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:active {
+            background-image: -webkit-linear-gradient(top, #4A4A49, #4A4A49);
+            background-image: -moz-linear-gradient(top, #4A4A49, #4A4A49);
+            color: #FFF;
+            border-color: #747473;
+        }
+
+        .ui_selector .select .detected-ico,
+        .TnITTtw-ui_selector .TnITTtw-select .TnITTtw-detected-ico {
+            display: inline-block;
+        }
+
+        .ui_selector .active,
+        .ui_selector .active:hover,
+        .ui_selector .active:active,
+        .TnITTtw-ui_selector .TnITTtw-active,
+        .TnITTtw-ui_selector .TnITTtw-active:hover,
+        .TnITTtw-ui_selector .TnITTtw-active:active {
+            box-shadow: 0 -1px 15px -10px rgba(0, 0, 0, 0.85) !important;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            background: #F3F3F3;
+        }
+
+        .sliding-text,
+        .TnITTtw-sliding-text {
+            position: relative;
+        }
+
+        .ui_selector .options,
+        .TnITTtw-ui_selector .TnITTtw-options {
+            margin-left: 0px;
+            margin-top: -4px;
+            background: #fff;
+            border: 1px solid rgba(200, 199, 204, 0.5);
+            width: 231px;
+            overflow: hidden;
+            max-height: 313px;
+            position: absolute;
+            font-size: 12px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            display: none;
+        }
+
+        .ui_selector .options.standalone,
+        .TnITTtw-ui_selector .TnITTtw-options.TnITTtw-standalone {
+            border-radius: 11px;
+            margin-top: 16px;
+        }
+
+        /* for now, it can only be on the top */
+        .ui_selector .options-arrow,
+        .TnITTtw-ui_selector .TnITTtw-options-arrow {
+            display: none;
+            position: absolute;
+            width: 32px !important;
+            height: 18px !important;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow.png);
+            background-size: 32px 18px;
+            transform: rotate(180deg);
+            margin-top: -1px;
+        }
+
+        .dark-mode .ui_selector .options-arrow,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options-arrow {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow-dark.png);
+        }
+
+        .dark-mode .ui_selector .options,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options {
+            background: #525251;
+        }
+
+        .ui_selector .options ul,
+        .TnITTtw-ui_selector .TnITTtw-options ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 232px;
+        }
+
+        .ui_selector .options ul li,
+        .TnITTtw-ui_selector .TnITTtw-options ul li {
+            padding: 10px 0px;
+            -webkit-user-select: none;
+            text-align: center;
+            font-size: 17px;
+            -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+            margin: 0 10px;
+            border-radius: 6px;
+            position: relative;
+        }
+
+        .dark-mode .options ul li,
+        .TnITTtw-dark-mode .TnITTtw-options ul li {
+            color: #fff;
+        }
+
+        .ui_selector .options ul li:last-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li:last-child {
+            margin-bottom: 16px;
+        }
+
+        .ui_selector .options ul li.option:first-child,
+        .ui_selector .options ul li.option_selected:first-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option:first-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected:first-child {
+            margin-top: 16px;
+        }
+
+        .ui_selector .options ul li.whenHover,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+            cursor: pointer;
+            background: #f3f3f3;
+            text-align: center;
+        }
+
+        .dark-mode .ui_selector .options ul li.whenHover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .ui_selector .options ul li.option_selected,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected {
+            cursor: pointer;
+            background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+                linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .ui_selector .options ul .group,
+        .ui_selector .options ul .group:hover,
+        .ui_selector .options ul .group.whenHover,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.whenHover {
+            padding: 16px 10px;
+            color: #8e8e93;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            text-align: center;
+            cursor: default;
+            background: #FFF;
+        }
+
+        .dark-mode .ui_selector .options ul .group,
+        .dark-mode .ui_selector .options ul .group:hover,
+        .dark-mode .ui_selector .options ul .group.whenHover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.TnITTtw-whenHover {
+            color: #98989D;
+            background: #525251;
+        }
+
+        .group-element,
+        .TnITTtw-group-element {
+            width: 153px;
+        }
+
+        .options .dd-search,
+        .TnITTtw-options .TnITTtw-dd-search {
+            border-bottom: 1px solid rgba(200, 199, 204, 0.5);
+        }
+
+        .dark-mode .options .dd-search,
+        .TnITTtw-dark-mode .TnITTtw-options .TnITTtw-dd-search {
+            border-bottom-color: #747473;
+        }
+
+        .dd-search .dd-input,
+        .TnITTtw-dd-search .TnITTtw-dd-input {
+            padding: 16px;
+            padding-left: calc(16px * 3);
+            width: 168px;
+            border: none;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            text-align: left;
+            color: #000;
+            font-size: 17px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/searchfield-icon.png);
+            background-position: 16px;
+            background-size: 16px;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: auto;
+        }
+
+        .dark-mode .dd-search .dd-input,
+        .TnITTtw-dark-mode .TnITTtw-dd-search .TnITTtw-dd-input {
+            color: #FFF;
+            background-color: #525251;
+        }
+
+        .dd-search .dd-input:focus,
+        .TnITTtw-dd-search .TnITTtw-dd-input:focus {
+            -webkit-transition: all 275ms cubic-bezier(0.23, 1, 0.32, 1);
+            outline: none;
+            text-align: left;
+        }
+
+        .dd-input::-webkit-input-placeholder,
+        .TnITTtw-dd-input::-webkit-input-placeholder {
+            color: #8e8e93;
+        }
+
+        .search-failed-plaque,
+        .TnITTtw-search-failed-plaque {
+            text-align: center;
+            padding: 20px;
+            color: #8e8e93;
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .dark-mode .search-failed-plaque,
+        .TnITTtw-dark-mode .TnITTtw-search-failed-plaque {
+            color: #98989D;
+        }
+
+        .rm-recent,
+        .TnITTtw-rm-recent {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-lang-remove.png);
+            background-size: 10px 10px;
+            top: 15px;
+            right: 10px;
+        }
+
+        .rm-recent:hover,
+        .TnITTtw-rm-recent:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-lang-remove.png);
+        }
+
+        .rm-recent:active,
+        .TnITTtw-rm-recent:active {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-lang-remove.png);
+        }
+
+        .option_selected .rm-recent,
+        .TnITTtw-option_selected .TnITTtw-rm-recent {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+        }
+
+        .option_selected .rm-recent:hover,
+        .TnITTtw-option_selected .TnITTtw-rm-recent:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-active-lang-remove.png);
+        }
+
+        .option_selected .rm-recent:active,
+        .TnITTtw-option_selected .TnITTtw-rm-recent:active {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+        }
+
+        .TnITTtw-hidden {
+            display: none;
+        }
+    </style>
+    <style type="text/css">
+        @-webkit-keyframes load4 {
+
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+
+            75% {
+                box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+
+        @keyframes load4 {
+
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+
+            75% {
+                box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-offset="20" data-bs-target="#navbar-navlist">
+    <!-- Loader -->
+    <div id="preloader" style="visibility: hidden; opacity: 0;">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Navbar Start -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo navbar-brand" href="#">My Portfolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="mdi mdi-menu"></i>
+            </button>
+            <!--end button-->
+
+            <div class="collapse navbar-collapse navigation" id="navbarCollapse">
+                <ul id="navbar-navlist" class="navbar-nav navbar-nav-link ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <!--end nav item-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <!--end nav item-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <!--end nav item-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <!--end nav item-->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#news">Blog</a>
+                    </li> -->
+                    <!--end nav item-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!--end nav item-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages
+                        </a>
+                        <div class="dropdown-menu rounded m-0" aria-labelledby="navbarDropdown">
+                            <div class="container ml-0 ml-md-0">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <!-- <a class="dropdown-item"
+                                            href="http://zoyothemes.com/queue/layout/page-blog.html">Blog</a>
+                                        <a class="dropdown-item"
+                                            href="http://zoyothemes.com/queue/layout/page-blog-detail.html">Blog
+                                            Detail</a> -->
+                                        <a class="dropdown-item" href="page-portfolio.html">Portfolio</a>
+                                        <a class="dropdown-item" href="page-portfolio-detail.html">Portfolio Detail</a>
+                                    </div>
+                                    <!--end col-->
+                                </div>
+                                <!--end row-->
+                            </div>
+                            <!--end container-->
+                        </div>
+                    </li>
+                    <!--end nav item-->
+                </ul>
+
+                <ul class="top-right text-right list-unstyled list-inline mb-0 mt-2 mt-sm-0 nav-social">
+                    <li class="list-inline-item me-2"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item me-2"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+        <!--end container-->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Area Start -->
+    <div class="hero-area position-relative bg-half-120" style="background-image:url('./assets/images/hero-bg.jpg')"
+        id="home">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 align-items-center text-center">
+                    <div class="title-heading mt-4 pb-60">
+                        <img src="./assets/images/pal.png" class="img-fluid rounded-circle" alt="Lucas King">
+                        <h1 class="heading font-36 text-white mt-4">Here I'am Lucas King</h1>
+                        <h6 class="designation mb-3 text-white">I'm a Passionate <span class="text-primary">Blockchain
+                                Engineer</span></h6>
+                        <div class="hero-btn mt-4 pt-2">
+                            <a href="javascript:void(0)" class="btn btn-primary rounded me-2 mb-2">Hire Me</a>
+                            <a href="javascript:void(0)" class="btn btn-primary rounded text-white mb-2">Download CV
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-download fea icon-sm">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%; position: absolute; top: 0px;"
+            width="1583" height="805"></canvas>
+    </div>
+    <!-- Hero Area End -->
+
+    <!-- About Me -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card public-profile border-0 rounded shadow no-margin" style="z-index: 1;">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 col-md-4 text-md-start">
+                                    <!--<img src="./assets/images/client/05.jpg" class="avatar avatar-large rounded-circle shadow d-block mx-auto" alt="">-->
+                                    <div class="about-details key-feature bg-light">
+                                        <div class="media-body content">
+                                            <h6 class="title mb-2">Personal Details</h6>
+                                            <div class="bor-bottom mt-2 mb-2"></div>
+                                            <p class="text-muted mb-2 mt-3 font-14"><a href="javascript:void(0)"
+                                                    class="text-black">Email: </a> gs.tech.0322@gmail.com</p>
+                                            <p class="text-muted mb-2 font-14"><a href="javascript:void(0)"
+                                                    class="text-black">Languages: </a> English</p>
+                                            <p class="text-muted mb-0 font-14"><a href="javascript:void(0)"
+                                                    class="text-black">Nationality: </a> Singaporean</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-9 col-md-8">
+                                    <div class="row align-items-end">
+                                        <div class="col-md-12 text-md-start mt-4 mt-sm-0">
+                                            <h4 class="heading me-2">I Am<span class="element text-primary"
+                                                    data-elements="Blockchain Engineer, Web Developer"></span>
+                                                <span id="typed" class="text-primary"></span><span
+                                                    class="typed-cursor">|</span>
+                                            </h4>
+                                            <p class="text-light-muted mt-2">
+                                                I am a software developer who specializes in Blockchain with a focus on Ethereum and Solana.
+                                                I am always looking to increase his knowledge and expertise with a willingness to dive into the unknown. <br /><br />
+                                                <i>
+                                                    Ability to improve constantly by keeping up to date with the latest technologies trends. <br />
+                                                    High-quality and welltested Solidity code, following the latest design and development patterns. <br />
+                                                    Proven track record of developing various tokens and smart contracts. <br />
+                                                    Strong knowledge of Blockchain, Ethereum, Ethereum 2.0, Binance Smart Chain, Polygon, and Solana Ecosystem. <br />
+                                                    Highly proficient in object-oriented methodologies, data structures, algorithms, as well as quality coding and excellent debugging. <br />
+                                                    Strong responsibility for works and strong experience in React-oriented web development.
+                                                </i>
+                                            </p>
+                                            <!-- <img src="./assets/images/signature.png" height="35" alt="Signature"> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Me End -->
+
+    <!-- Service Start -->
+    <section class="section bg-light" id="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="container-title text-center mb-4 pb-2">
+                        <div class="titles">
+                            <h2 class="title text-capitalize mb-4">Awesome Service</h2>
+                            <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="feature-widget text-left rounded">
+                        <div class="services-icon text-primary mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-monitor fea icon-md">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <div class="services-texts">
+                            <h3 class="title mb-3">Web Developmnet</h3>
+                            <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page
+                                without coding.</p>
+                            <a href="javascript:void(0)" class="text-primary">Read more <i
+                                    class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="feature-widget text-left rounded">
+                        <div class="services-icon text-primary mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-feather fea icon-md">
+                                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                                <line x1="16" y1="8" x2="2" y2="22"></line>
+                                <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                            </svg>
+                        </div>
+                        <div class="services-texts">
+                            <h3 class="title mb-3">Design &amp; Planning</h3>
+                            <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page
+                                without coding.</p>
+                            <a href="javascript:void(0)" class="text-primary">Read more <i
+                                    class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="feature-widget text-left rounded">
+                        <div class="services-icon text-primary mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-disc fea icon-md">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="services-texts">
+                            <h3 class="title mb-3">Adobe Photoshop</h3>
+                            <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page
+                                without coding.</p>
+                            <a href="javascript:void(0)" class="text-primary">Read more <i
+                                    class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="feature-widget text-left rounded">
+                        <div class="services-icon text-primary mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-layout fea icon-md">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <div class="services-texts">
+                            <h3 class="title mb-3">Digital marketing</h3>
+                            <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page
+                                without coding.</p>
+                            <a href="javascript:void(0)" class="text-primary">Read more <i
+                                    class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="feature-widget text-left rounded">
+                        <div class="services-icon text-primary mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-watch fea icon-md">
+                                <circle cx="12" cy="12" r="7"></circle>
+                                <polyline points="12 9 12 12 13.5 13.5"></polyline>
+                                <path
+                                    d="M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="services-texts">
+                            <h3 class="title mb-3">24 / 7</h3>
+                            <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page
+                                without coding.</p>
+                            <a href="javascript:void(0)" class="text-primary">Read more <i
+                                    class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="feature-widget text-left rounded">
+                        <div class="icon services-icon text-primary mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-target fea icon-md">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="6"></circle>
+                                <circle cx="12" cy="12" r="2"></circle>
+                            </svg>
+                        </div>
+                        <div class="services-texts">
+                            <h3 class="title mb-3">Graphic Designer</h3>
+                            <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page
+                                without coding.</p>
+                            <a href="javascript:void(0)" class="text-primary">Read more <i
+                                    class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end row -->
+        </div>
+    </section>
+    <!-- Service End -->
+
+
+    <!-- Work Participation Start -->
+    <section class="section" id="resume">
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4">
+                    <div class="work-content mt-4">
+                        <h2 class="text-capitalize">Work Participation</h2>
+                        <p class="mb-0 text-light-muted">
+                            I am a software developer who specializes in Blockchain with a focus on Ethereum and Solana.
+                            I am always looking to increase his knowledge and expertise with a willingness to dive into the unknown.
+                        </p>
+                        <!-- <a href="#" class="btn btn btn-primary rounded mt-4 pt-2">See More <i
+                                class="mdi mdi-chevron-right"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="main-timeline">
+                            <div class="timeline mt-4">
+                                <a href="#" class="timeline-content">
+                                    <div class="timeline-icon text-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-feather fea icon-md">
+                                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                                            <line x1="16" y1="8" x2="2" y2="22"></line>
+                                            <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                                        </svg>
+                                    </div>
+                                    <h3 class="title mb-0">UX Designer</h3>
+                                    <small class="company">Vivo - Senior Designer</small>
+                                    <span class="badge skill-badge education-badge badge-light">2015 - 2018</span>
+                                    <p class="description text-light-muted mt-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada
+                                        tellus lorem, et condimentum
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline mt-4">
+                                <a href="#" class="timeline-content">
+                                    <div class="timeline-icon text-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-navigation fea icon-md">
+                                            <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                                        </svg>
+                                    </div>
+                                    <h3 class="title mb-0">Web Developer</h3>
+                                    <small class="company">Oppo - HR Manager</small>
+                                    <span class="badge skill-badge education-badge margin-50 badge-light">2012 -
+                                        2015</span>
+                                    <p class="description text-light-muted mt-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada
+                                        tellus lorem, et condimentum
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline mt-4">
+                                <a href="#" class="timeline-content">
+                                    <div class="timeline-icon text-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-package fea icon-md">
+                                            <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
+                                            <path
+                                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                            </path>
+                                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                        </svg>
+                                    </div>
+                                    <h3 class="title mb-0">Graphic Designer</h3>
+                                    <small class="company">Apple - Testor</small>
+                                    <span class="badge skill-badge education-badge badge-light">2012 - 2010</span>
+                                    <p class="description text-light-muted mt-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada
+                                        tellus lorem, et condimentum
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work Participation End -->
+
+    <!-- Client Start -->
+    <section class="section fan-fact" style="background-image:url('./assets/images/bg-pattern.png')" id="about">
+        <div class="container">
+            <div class="row" id="counter">
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="card counter-box border-0 shadow text-center rounded py-3">
+                        <div class="card-body py-5">
+                            <h2 class="mb-0"><span class="counter-value" data-target="97">97</span>%</h2>
+                            <h5 class="counter-head mb-0">Happy Client </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="card counter-box border-0 shadow text-center rounded py-3">
+                        <div class="card-body py-5">
+                            <h2 class="mb-0"><span class="counter-value" data-target="15">15</span> M </h2>
+                            <h5 class="counter-head mb-0">Download </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="card counter-box border-0 shadow text-center rounded py-3">
+                        <div class="card-body py-5">
+                            <h2 class="mb-0"><span class="counter-value" data-target="3261">3261</span> + </h2>
+                            <h5 class="counter-head mb-0">Happy Users </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="card counter-box border-0 shadow text-center rounded py-3">
+                        <div class="card-body py-5">
+                            <h2 class="mb-0"><span class="counter-value" data-target="36">36</span> + </h2>
+                            <h5 class="counter-head mb-0">Years of expe. </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Client -->
+
+    <!-- Work Expertise Start -->
+    <section class="cta-full">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-lg-4 padding-less img" style="background-image:url('./assets/images/skills.jpg')"
+                    data-jarallax="{&quot;speed&quot;: 0.5}">
+                </div>
+                <div class="col-lg-8 offset-lg-5">
+                <div class="col-lg-12">
+                    <div class="cta-full-img-box">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center mb-3">
+                                <div class="container-title">
+                                    <div class="titles">
+                                        <h4 class="title title-line text-capitalize mb-4">Work Expertise</h4>
+                                    </div>
+                                    <p class="text-light-muted mx-auto width-max mb-0">Obviously I'm a Web Designer.
+                                        Experienced with all stages of the development cycle for dynamic web projects.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/bootstrap.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/nodejs-icon.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">55%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/react.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">68%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/post_gray_sql.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/amazons3.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/android.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/Angular.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 mt-4 pt-2">
+                                <div class="card explore-feature border-0 text-center bg-white p-3">
+                                    <div class="card-body p-0">
+                                        <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                            <img src="./assets/images/skills/mongodb.svg" alt=""
+                                                class="img-fluid mx-auto">
+                                        </div>
+                                        <span class="badge skill-badge badge-light">65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work Expertise End -->
+
+    <!-- My Work & Portfolio Start -->
+    <section class="section bg-light" id="projects">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="container-title text-center mb-4 pb-2">
+                        <div class="titles">
+                            <h2 class="title text-capitalize mb-4">My Work &amp; Portfolio</h2>
+                            <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">Obviously I'm a Web
+                                Designer. Experienced with all stages of the development cycle for dynamic web projects.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div
+                        class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                        <div class="card-body p-0">
+                            <img src="./assets/images/portfolio/1.jpg" class="img-fluid" alt="work-image">
+                            <div class="overlay-work bg-dark"></div>
+                            <div class="content">
+                                <h5 class="mb-0"><a href="http://zoyothemes.com/queue/layout/page-portfolio-detail.html"
+                                        class="text-white title">Iphone mockup</a></h5>
+                                <h6 class="text-light tag mb-0">Branding</h6>
+                            </div>
+                            <div class="icons text-center">
+                                <a href="javascript:void(0)" data-src="./assets/images/portfolio/1.jpg"
+                                    data-gallery="myGal"
+                                    class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-camera fea icon-sm">
+                                        <path
+                                            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                        </path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div
+                        class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                        <div class="card-body p-0">
+                            <img src="./assets/images/portfolio/2.jpg" class="img-fluid" alt="work-image">
+                            <div class="overlay-work bg-dark"></div>
+                            <div class="content">
+                                <h5 class="mb-0"><a href="http://zoyothemes.com/queue/layout/page-portfolio-detail.html"
+                                        class="text-white title">Mockup Collection</a></h5>
+                                <h6 class="text-light tag mb-0">Mockup</h6>
+                            </div>
+                            <div class="icons text-center">
+                                <a 
+                                    href="javascript:void(0)" 
+                                    data-src="./assets/images/portfolio/2.jpg"
+                                    data-gallery="myGal"
+                                    class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-camera fea icon-sm">
+                                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                        </path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div
+                        class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                        <div class="card-body p-0">
+                            <img src="./assets/images/portfolio/3.jpg" class="img-fluid" alt="work-image">
+                            <div class="overlay-work bg-dark"></div>
+                            <div class="content">
+                                <h5 class="mb-0">
+                                    <a href="http://zoyothemes.com/queue/layout/page-portfolio-detail.html"
+                                        class="text-white title">Abstract images</a>
+                                </h5>
+                                <h6 class="text-light tag mb-0">Abstract</h6>
+                            </div>
+                            <div class="icons text-center">
+                                <a 
+                                    href="javascript:void(0)" 
+                                    data-src="assets/images/portfolio/3.jpg"
+                                    data-gallery="myGal"
+                                    class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-camera fea icon-sm">
+                                        <path
+                                            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                        </path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div
+                        class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                        <div class="card-body p-0">
+                            <img src="./assets/images/portfolio/4.jpg" class="img-fluid" alt="work-image">
+                            <div class="overlay-work bg-dark"></div>
+                            <div class="content">
+                                <h5 class="mb-0">
+                                    <a href="http://zoyothemes.com/queue/layout/page-portfolio-detail.html"
+                                        class="text-white title">Yellow bg with Books</a>
+                                </h5>
+                                <h6 class="text-light tag mb-0">Books</h6>
+                            </div>
+                            <div class="icons text-center">
+                                <a href="javascript:void(0)" data-src="assets/images/portfolio/4.jpg"
+                                    data-gallery="myGal"
+                                    class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-camera fea icon-sm">
+                                        <path
+                                            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                        </path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div
+                        class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                        <div class="card-body p-0">
+                            <img src="./assets/images/portfolio/5.jpg" class="img-fluid" alt="work-image">
+                            <div class="overlay-work bg-dark"></div>
+                            <div class="content">
+                                <h5 class="mb-0"><a href="http://zoyothemes.com/queue/layout/page-portfolio-detail.html"
+                                        class="text-white title">Company V-card</a></h5>
+                                <h6 class="text-light tag mb-0">V-card</h6>
+                            </div>
+                            <div class="icons text-center">
+                                <a href="javascript:void(0)" data-src="assets/images/portfolio/5.jpg"
+                                    data-gallery="myGal"
+                                    class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-camera fea icon-sm">
+                                        <path
+                                            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                        </path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div
+                        class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                        <div class="card-body p-0">
+                            <img src="./assets/images/portfolio/6.jpg" class="img-fluid" alt="work-image">
+                            <div class="overlay-work bg-dark"></div>
+                            <div class="content">
+                                <h5 class="mb-0"><a href="http://zoyothemes.com/queue/layout/page-portfolio-detail.html"
+                                        class="text-white title">Mockup box with paints</a></h5>
+                                <h6 class="text-light tag mb-0">Photography</h6>
+                            </div>
+                            <div class="icons text-center">
+                                <a href="javascript:void(0)" data-src="assets/images/portfolio/6.jpg"
+                                    data-gallery="myGal"
+                                    class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-camera fea icon-sm">
+                                        <path
+                                            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                        </path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-4 pt-2">
+                    <div class="text-center">
+                        <a href="http://zoyothemes.com/queue/layout/page-portfolio.html"
+                            class="btn btn btn-primary rounded">See More <i class="mdi mdi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My Work & Portfolio End -->
+
+    <!-- Testimonial Start -->
+    <!-- <section class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="container-title text-center mb-4 pb-2">
+                        <div class="titles">
+                            <h2 class="title text-capitalize mb-4">Clients Say</h2>
+                            <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">Obviously I'm a Web
+                                Designer. Experienced with all stages of the development cycle for dynamic web projects.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="tns-outer" id="tns1-ow">
+                        <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide
+                            <span class="current">2 to 4</span> of 4
+                        </div>
+                        <div id="tns1-mw" class="tns-ovh">
+                            <div class="tns-inner" id="tns1-iw">
+                                <div class="client-review-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
+                                    id="tns1" style="transform: translate3d(-25%, 0px, 0px);">
+                                    <div class="tiny-slide tns-item" id="tns1-item0" aria-hidden="true" tabindex="-1">
+                                        <div class="client-review rounded shadow m-2">
+                                            <div
+                                                class="align-items-center justify-content-start justify-content-sm-center">
+                                                <div class="col-sm-auto mb-4 mb-sm-0">
+                                                    <img class="img-fluid avatar avatar-xl"
+                                                        src="./assets/images/client/01.jpg" alt="">
+                                                </div>
+                                                <div class="col pl-lg-4 clt-section">
+                                                    <h5 class="clt-title mt-2 mb-2">Ralph Edwards</h5>
+                                                    <ul class="list-unstyled float-right mb-0">
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="pera-title text-light-muted mb-0 mt-2">There are many
+                                                    variations of passages of Lorem Ipsum available, but the majority
+                                                    have suffered alteration in some form</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tiny-slide tns-item tns-slide-active" id="tns1-item1">
+                                        <div class="client-review rounded shadow m-2">
+                                            <div
+                                                class="align-items-center justify-content-start justify-content-sm-center">
+                                                <div class="col-sm-auto mb-4 mb-sm-0">
+                                                    <img class="img-fluid avatar avatar-xl"
+                                                        src="./assets/images/client/female-4.jpg" alt="">
+                                                </div>
+                                                <div class="col pl-lg-4 clt-section">
+                                                    <h5 class="clt-title mt-2 mb-2">Jenny Wilson</h5>
+                                                    <ul class="list-unstyled float-right mb-0">
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <p class="pera-title text-light-muted mb-0 mt-2">There are many
+                                                    variations of passages of Lorem Ipsum available, but the majority
+                                                    have suffered alteration in some form</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tiny-slide tns-item tns-slide-active" id="tns1-item2">
+                                        <div class="client-review rounded shadow m-2">
+                                            <div
+                                                class="align-items-center justify-content-start justify-content-sm-center">
+                                                <div class="col-sm-auto mb-4 mb-sm-0">
+                                                    <img class="img-fluid avatar avatar-xl"
+                                                        src="./assets/images/client/male-1.jpg" alt="">
+                                                </div>
+                                                <div class="col pl-lg-4 clt-section">
+                                                    <h5 class="clt-title mt-2 mb-2">Courtney Henry</h5>
+                                                    <ul class="list-unstyled float-right mb-0">
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                        <li class="list-inline-item text-warning"><i
+                                                                class="mdi mdi-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <p class="pera-title text-light-muted mb-0 mt-2">There are many
+                                                    variations of passages of Lorem Ipsum available, but the majority
+                                                    have suffered alteration in some form</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tiny-slide tns-item tns-slide-active" id="tns1-item3">
+                                        <div class="client-review rounded shadow m-2">
+                                            <div
+                                                class="align-items-center justify-content-start justify-content-sm-center">
+                                                <div class="col-sm-auto mb-4 mb-sm-0">
+                                                    <img class="img-fluid avatar avatar-xl"
+                                                        src="./assets/images/client/female-3.jpg" alt="">
+                                                </div>
+                                                <div class="col pl-lg-4 clt-section">
+                                                    <h5 class="clt-title mt-2 mb-2">Esther Howard</h5>
+                                                    <ul class="list-unstyled float-right mb-0">
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item text-warning">
+                                                            <i class="mdi mdi-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="pera-title text-light-muted mb-0 mt-2">There are many
+                                                    variations of passages of Lorem Ipsum available, but the majority
+                                                    have suffered alteration in some form</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tns-nav" aria-label="Carousel Pagination">
+                            <button type="button" data-nav="0" aria-controls="tns1" aria-label="Carousel Page 1"
+                                tabindex="-1"></button>
+                            <button type="button" data-nav="1" aria-controls="tns1"
+                                aria-label="Carousel Page 2 (Current Slide)" class="tns-nav-active"></button>
+                            <button type="button" data-nav="2" tabindex="-1" aria-controls="tns1" style="display: none"
+                                aria-label="Carousel Page 3"></button>
+                            <button type="button" data-nav="3" tabindex="-1" aria-controls="tns1" style="display: none"
+                                aria-label="Carousel Page 4"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Blog Start -->
+    <!-- <section class="section bg-light" id="news">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="container-title text-center mb-4 pb-2">
+                        <div class="titles">
+                            <h2 class="title text-capitalize mb-4">Latest news &amp; blog</h2>
+                            <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">Obviously I'm a Web
+                                Designer. Experienced with all stages of the development cycle for dynamic web projects.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-post rounded customer-testi m-1">
+                        <div class="position-relative">
+                            <img src="./assets/images/blog/1.jpg"
+                                class="img-fluid rounded-top" alt="">
+                        </div>
+                        <div class="content pt-4 pb-4 p-3">
+                            <h5><a href="http://zoyothemes.com/queue/layout/page-blog-detail.html"
+                                    class="title text-dark">Design your apps in your own way</a></h5>
+                            <p class="text-light-muted mb-3">This is required when, for example, the final text is not
+                                yet available.</p>
+                            <div class="post-meta d-flex justify-content-between mt-3">
+                                <ul class="list-unstyled mb-0 d-flex justify-content-between">
+                                    <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)"
+                                            class="text-light-muted date"><i class="mdi mdi-calendar-edit me-1"></i>Dec
+                                            19</a></li>
+                                </ul>
+                                <a href="javascript:void(0)" class="text-muted readmore">Read More <i
+                                        class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-post rounded customer-testi m-1">
+                        <div class="position-relative">
+                            <img src="./assets/images/blog/2.jpg"
+                                class="img-fluid rounded-top" alt="">
+                        </div>
+                        <div class="content pt-4 pb-4 p-3">
+                            <h5><a href="http://zoyothemes.com/queue/layout/page-blog-detail.html"
+                                    class="title text-dark">How apps is changing the it world</a></h5>
+                            <p class="text-light-muted mb-3">This is required when, for example, the final text is not
+                                yet available.</p>
+                            <div class="post-meta d-flex justify-content-between mt-3">
+                                <ul class="list-unstyled mb-0 d-flex justify-content-between">
+                                    <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)"
+                                            class="text-light-muted date"><i class="mdi mdi-calendar-edit me-1"></i>Feb
+                                            12</a></li>
+                                </ul>
+                                <a href="javascript:void(0)" class="text-muted readmore">Read More <i
+                                        class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-post rounded customer-testi m-1">
+                        <div class="position-relative">
+                            <img src="./assets/images/blog/3.jpg"
+                                class="img-fluid rounded-top" alt="">
+                        </div>
+                        <div class="content pt-4 pb-4 p-3">
+                            <h5><a href="http://zoyothemes.com/queue/layout/page-blog-detail.html"
+                                    class="title text-dark">Smartest applications for business</a></h5>
+                            <p class="text-light-muted mb-3">This is required when, for example, the final text is not
+                                yet available.</p>
+                            <div class="post-meta d-flex justify-content-between mt-3">
+                                <ul class="list-unstyled mb-0 d-flex justify-content-between">
+                                    <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)"
+                                            class="text-light-muted date"><i class="mdi mdi-calendar me-1"></i>June
+                                            27</a></li>
+                                </ul>
+                                <a href="javascript:void(0)" class="text-muted readmore">Read More <i
+                                        class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--end section -->
+
+
+    <!-- Contact Me Start -->
+    <section class="section pb-0" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="container-title text-center mb-4 pb-2">
+                        <div class="titles">
+                            <h2 class="title text-capitalize mb-4">Contact Me</h2>
+                            <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">Obviously I'm a Web
+                                Designer. Experienced with all stages of the development cycle for dynamic web projects.
+                            </p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mt-4 pt-2">
+                    <div class="contact-detail text-center">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-phone fea icon-md">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Phone</h5>
+                            <p class="text-light-muted">Promising development turmoil inclusive education transformative
+                                community</p>
+                            <a href="tel:+152534-468-854" class="text-primary">+152 534-468-854</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 pt-2">
+                    <div class="contact-detail text-center">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-mail fea icon-md">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Email</h5>
+                            <p class="text-light-muted">Promising development turmoil inclusive education transformative
+                                community</p>
+                            <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 pt-2">
+                    <div class="contact-detail text-center">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-map-pin fea icon-md">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Location</h5>
+                            <p class="text-light-muted">C/54 Northwest Freeway, Suite 558, <br>Houston, USA 485</p>
+                            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                                class="map-popup-view text-primary">View on Google map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Me End -->
+
+    <!-- Send Message Start -->
+    <section class="section pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="custom-form mb-sm-30">
+                        <form method="post" action="http://zoyothemes.com/queue/layout/php/contact.php" name="myForm"
+                            onsubmit="return validateForm()">
+                            <p id="error-msg"></p>
+                            <div id="simple-msg"></div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-6">
+                                            <div class="form-group">
+                                                <input name="name" id="name" type="text"
+                                                    class="form-control border rounded" placeholder="First Name :">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-6">
+                                            <div class="form-group">
+                                                <input name="email" id="email" type="email"
+                                                    class="form-control border rounded" placeholder="Your email :">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <input name="subject" id="subject" class="form-control border rounded"
+                                                    placeholder="Your subject :">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <textarea name="comments" id="comments" rows="4"
+                                            class="form-control border rounded" placeholder="Your Message :"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 text-end">
+                                    <input type="submit" id="submit" name="send"
+                                        class="submitBnt btn btn btn-primary rounded" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Send Message End -->
+
+    <!-- Footer Start -->
+    <footer class="footer footer-bar bg-black">
+        <div class="container text-foot text-center">
+            <p class="mb-0 text-white-50">©
+                <script>document.write(new Date().getFullYear())</script> My Portfolio. Design by Me.
+            </p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <a href="javascript: void(0);" class="back-to-top btn btn-icon btn-soft-primary" id="back-to-top"
+        onclick="topFunction()" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-arrow-up icons">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </a>
+    <!-- Back to top -->
+
+    <!-- Switch Color Start -->
+    <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
+        <div>
+            <h6 class="color-scheme-title text-center font-weight-bolder mb-2">Select your color</h6>
+            <ul class="pattern text-center mb-0">
+                <li class="list-inline-item">
+                    <a class="default" href="javascript: void(0);" onclick="setColor('default')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="blue" href="javascript: void(0);" onclick="setColor('red')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="green" href="javascript: void(0);" onclick="setColor('green')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="mosaic-blue" href="javascript: void(0);" onclick="setColor('mosaic-blue')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="light-yellow" href="javascript: void(0);" onclick="setColor('light-yellow')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="purple" href="javascript: void(0);" onclick="setColor('purple')"></a>
+                </li>
+            </ul>
+            <div class="bottom">
+                <a href="javascript: void(0);" class="settings bg-white shadow d-block"><i
+                        class="mdi mdi-star-settings mdi-24px position-absolute mdi-spin text-primary"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Switch Color End -->
+
+
+    <!-- Javascript -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Slider -->
+    <script src="./assets/js/tiny-slider.js"></script>
+    <script src="./assets/js/tiny-slider-init.js"></script>
+
+    <!-- MK Lightbox -->
+    <script src="./assets/js/mklb.js"></script>
+
+    <!-- Contact -->
+    <script src="./assets/js/contact.js"></script>
+
+    <!-- Counter init -->
+    <script src="./assets/js/counter.init.js"></script>
+
+    <!-- Feather icon -->
+    <script src="./assets/js/feather.min.js"></script>
+
+    <!--Partical js-->
+    <script src="./assets/js/particles.js"></script>
+    <script src="./assets/js/particles.app.js"></script>
+
+    <!-- Typed -->
+    <script src="./assets/js/typed.js"></script>
+    <script src="./assets/js/typed.init.js"></script>
+    <style type="text/css" data-typed-js-css="true">
+        .typed-cursor {
+            opacity: 1;
+        }
+
+        .typed-cursor.typed-cursor--blink {
+            animation: typedjsBlink 0.7s infinite;
+            -webkit-animation: typedjsBlink 0.7s infinite;
+            animation: typedjsBlink 0.7s infinite;
+        }
+
+        @keyframes typedjsBlink {
+            50% {
+                opacity: 0.0;
+            }
+        }
+
+        @-webkit-keyframes typedjsBlink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <!-- Switcher -->
+    <script src="./assets/js/switcher.js"></script>
+
+    <!-- Main Js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

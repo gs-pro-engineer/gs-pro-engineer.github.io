@@ -130,8 +130,8 @@ a {
   max-width: 500px;
 }
 
-.font-36 {
-  font-size: 36px !important;
+.font-50 {
+  font-size: 50px !important;
 }
 
 .para-desc-600 {
@@ -952,7 +952,7 @@ button:not(:disabled) {
 }
 
 .bg-half-120 {
-  padding: 170px 0;
+  padding: 300px 0;
   background-size: cover;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;

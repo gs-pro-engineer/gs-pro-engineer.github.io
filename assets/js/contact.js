@@ -7,12 +7,12 @@ function validateForm() {
   document.getElementById("error-msg").style.opacity = 0;
   document.getElementById('error-msg').innerHTML = "";
   if (name == "" || name == null) {
-    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Name*</div>";
+    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter your Full Name*</div>";
     fadeIn();
     return false;
   }
   if (email == "" || email == null) {
-    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Email*</div>";
+    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter your Email*</div>";
     fadeIn();
     return false;
   }
@@ -41,6 +41,7 @@ function validateForm() {
   xhttp.send("name=" + name + "&email=" + email + "&subject=" + subject + "&comments=" + comments);
   return false;
 }
+
 function fadeIn() {
   var fade = document.getElementById("error-msg");
   var opacity = 0;
